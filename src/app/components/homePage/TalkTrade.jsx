@@ -10,7 +10,7 @@ const TalkTrendsSection = () => {
                     {/* Text Content */}
                     <div className="lg:max-w-xl text-center lg:text-left">
                         <h2 className="text-xl md:text-3xl font-semibold mb-5">
-                            Talk Trends, Not Just Tactics.
+                            Talk Trends, Not Just Tactics. 
                         </h2>
                         <p className="text-base leading-relaxed mb-10">
                             Everyone’s chasing the next big thing, AI tools, faster flows, smarter funnels. But not everyone’s talking about what’s actually working. We’re happy to share what we’re seeing across the industry, what’s changing, and where the smart money’s going.
