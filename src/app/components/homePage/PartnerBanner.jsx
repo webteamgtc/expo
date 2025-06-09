@@ -10,7 +10,7 @@ const PartnerBanner = () => {
                         Let 2025 be the year you partner <br />
                         with a real FX leader.
                     </h2>
-                    <p className="text-sm md:text-base text-[#4B4B4B] mt-6 leading-relaxed">
+                    <p className="text-sm md:text-base mt-6 leading-relaxed">
                         We’ve got unbeatable deals, super-fast payouts, and a team that actually has your back. Whether you’re
                         looking to grow faster or just want a better partner, let’s talk. No hard pitch, just real conversations that
                         could lead to real results. Come say hi, you won’t regret it.

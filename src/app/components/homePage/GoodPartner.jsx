@@ -20,7 +20,7 @@ const GoodPartner = () => {
                             <div className="bg-primary text-white text-sm font-medium text-center py-3">
                                 See what others <br /> are missing
                             </div>
-                            <div className="p-4 py-10 text-sm text-gray-700 leading-relaxed">
+                            <div className="p-4 py-10 text-sm leading-relaxed">
                                 Most people don’t even realize their deal is holding them back.
                                 Let us show you what’s really possible.
                             </div>
@@ -31,7 +31,7 @@ const GoodPartner = () => {
                             <div className="bg-primary text-white text-sm font-medium text-center py-3">
                                 Small changes. <br /> Big wins
                             </div>
-                            <div className="p-4 py-10 text-sm text-gray-700 leading-relaxed">
+                            <div className="p-4 py-10 text-sm leading-relaxed">
                                 You don’t need to flip everything. Sometimes, just tweaking a few things can bring major results.
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const GoodPartner = () => {
                             <div className="bg-primary text-white text-sm font-medium text-center py-3">
                                 Your goals. <br /> Our plan
                             </div>
-                            <div className="p-4 py-10 text-sm text-gray-700 leading-relaxed">
+                            <div className="p-4 py-10 text-sm leading-relaxed">
                                 We don’t do one-size-fits-all. We build around you, what you need, what you value, and where you’re headed.
                             </div>
                         </div>

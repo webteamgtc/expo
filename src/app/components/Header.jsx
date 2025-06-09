@@ -4,7 +4,7 @@ import CalendlyButton from './homePage/CalendlyButton'
 
 const Header = () => {
   return (
-    <section className='py-2'>
+    <section className='p-2'>
         <div className='max-w-6xl mx-auto'>
 {/* Book Now Button */}
                     <div className=" w-full flex justify-between items-center">
