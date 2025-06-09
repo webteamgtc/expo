@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'; // If you're using Next.js; use <img> otherwise
+import CalendlyButton from './CalendlyButton';
 
 const TalkTrendsSection = () => {
     return (
@@ -16,9 +17,11 @@ const TalkTrendsSection = () => {
                             But not everyone’s talking about what’s actually working. We’re happy to share what
                             we’re seeing across the industry, what’s changing, and where the smart money’s going.
                         </p>
-                        <button className="bg-[#263f8f] text-white font-medium px-6 py-3 rounded-full hover:bg-gray-100 transition-all">
-                            Book a Meeting
-                        </button>
+                        <CalendlyButton
+                            url="https://calendly.com/mohammad-zeeshan-gtcfx"
+                            text="Book a Meeting"
+                            className=" bg-[#263f8f] text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary-dark transition"
+                        />
                     </div>
 
                     {/* Image */}
