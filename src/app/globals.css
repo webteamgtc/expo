@@ -4,8 +4,8 @@
   font-family: var(--font-poppins);
 }
 @theme {
-  --color-primary: #1a1a1a; /* Dark blue */
-  --color-secondary: #b68756; /* Gold yellow */
+  --color-primary: #2c318a;     /* Dark blue */
+  --color-secondary: #b68756;   /* Gold yellow */
 }
 
 body {

@@ -17,8 +17,7 @@ export default function Home() {
       <GoodPartner />
       <TalkTrendsSection />
       <RegulationBar />
-      <ThreeColumnSection />
-      <FooterNote />
+     
      </div>
   );
 }

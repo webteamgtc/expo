@@ -1,22 +1,25 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const RegulationBar = () => {
     return (
-        <div className="bg-[#29489C] w-full py-4 ">
+        <div className="bg-primary w-full py-4 ">
             {/* GTC Logo */}
-            <div className=' container mx-auto flex items-center gap-4 md:gap-2 justify-between flex-wrap'>
+            <div className=' container mx-auto flex items-center gap-4 md:gap-2 justify-center  md:justify-between flex-wrap'>
                 <div className="flex items-center gap-3">
-                    <Image
-                        src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/logo-2024-new.webp"
-                        alt="GTC Logo"
-                        width={120}
-                        height={40}
-                        className="object-contain"
-                    />
+                   <Link href="/">
+              <Image
+                src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/footer-logo.webp"
+                width="150"
+                height="53"
+                alt="GTCFX"
+                className="mx-auto md:m-0"
+              />
+            </Link>
                 </div>
 
                 {/* Regulation Flags */}
-                <div className="flex flex-wrap items-center gap-4 text-white text-sm font-medium">
+                <div className="flex flex-wrap  justify-center items-center gap-4 text-white text-sm font-medium">
                     <div className="flex items-center gap-2">
                         <span className="text-yellow-400 text-xs">●</span>
                         <img src="https://flagcdn.com/16x12/gb.png" alt="UK" className="w-4 h-3 inline-block" /> FCA
