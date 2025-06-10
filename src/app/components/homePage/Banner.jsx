@@ -26,19 +26,25 @@ const BannerSection = () => {
               <strong>Save the dates: 17-18-19 June!</strong>
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 text-center text-sm">
-              {[
-                    { src: "/icon-02.svg", alt: "Trusted", text: "Trusted & Regulated Worldwide" },
-                    { src: "/icon-03.svg", alt: "Traders", text: "Nearly 1 Million Active Traders Worldwide" },
-                    { src: "/icon-04.svg", alt: "Deposit", text: "Instant Deposits & Withdrawals" },
-                    { src: "/icon-05.svg", alt: "Execution", text: "Secure, Instant & Super-Fast Execution" },
-                    ].map(({ src, alt, text }, index) => (
-                    <div key={index}>
-                        <img src={src} alt={alt}  width="40" height="40" className="mx-auto mb-2" />
-                        <p className="text-xs text-[#be9b74]">{text}</p>
-                    </div>
-                    ))}
-            </div>
+           
+             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
+                                <div>
+                                    <img src="/homepage/icon-05.svg" alt="Trading" className="mx-auto h-10 mb-2" />
+                                    <p className='text-xs text-[#be9b74]'>Trusted & Regulated Worldwide</p>
+                                </div>
+                                <div>
+                                    <img src="/homepage/icon-02.svg" alt="Tools" className="mx-auto h-10 mb-2" />
+                                    <p className='text-xs text-[#be9b74]'>Nearly 1 Million Active Traders Worldwide</p>
+                                </div>
+                                <div>
+                                    <img src="/homepage/icon-03.svg" alt="Infrastructure" className="mx-auto h-10 mb-2" />
+                                    <p className='text-xs text-[#be9b74]'>Instant Deposits & Withdrawals</p>
+                                </div>
+                                <div>
+                                    <img src="/homepage/icon-04.svg" alt="Rewards" className="mx-auto h-10 mb-2" />
+                                    <p className='text-xs text-[#be9b74]'>Secure, Instant & Super-Fast Execution</p>
+                                </div>
+                            </div>
           </div>
 
           {/* Right Image Section */}
