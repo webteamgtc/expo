@@ -48,7 +48,7 @@ const GoodPartner = () => {
                     </div>
 
                     {/* CTA Button */}
-                      <div className='pt-6'>
+                      <div className='pt-10'>
                                                                                    <CalendlyButton
                                                                                        url="https://calendly.com/mohammad-zeeshan-gtcfx"
                                                                                        text="Book a Meeting"

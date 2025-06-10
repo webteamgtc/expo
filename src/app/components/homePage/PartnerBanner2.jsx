@@ -18,7 +18,7 @@ const PartnerSectionTwo = () => {
                     <p className="text-sm md:text-lg font-semibold text-primary max-w-xs mx-auto mt-6">
                         Let’s build something real, no drama, no excuses, just results.
                     </p>
-                    <div className='pt-6'>
+                    <div className='pt-10'>
                                                                <CalendlyButton
                                                                    url="https://calendly.com/mohammad-zeeshan-gtcfx"
                                                                    text="Book a Meeting"

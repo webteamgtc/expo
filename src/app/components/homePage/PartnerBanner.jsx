@@ -15,7 +15,7 @@ const PartnerBanner = () => {
                         looking to grow faster or just want a better partner, let’s talk. No hard pitch, just real conversations that
                         could lead to real results. Come say hi, you won’t regret it.
                     </p>
-                    <div className='pt-6'>
+                    <div className='pt-10'>
                                             <CalendlyButton
                                                 url="https://calendly.com/mohammad-zeeshan-gtcfx"
                                                 text="Book a Meeting"

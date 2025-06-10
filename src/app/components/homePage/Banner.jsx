@@ -13,21 +13,32 @@ const BannerSection = () => {
         <div className="w-full flex flex-col-reverse md:flex-row gap-6 md:py-10 items-center">
           {/* Left Content */}
           <div className="md:w-2/4 w-full text-center md:text-left px-4">
-            <h1 className="text-xl md:text-4xl font-medium mb-4 leading-tight">
+            <h1 className="text-xl md:text-4xl font-medium mb-5 leading-tight">
               Meet Me at <span className="text-secondary font-black">iFX Expo 2025</span> <br />
               & I’ll Show You How GTC Can Grow Your Business
             </h1>
+
+            <div className="relative block md:hidden mb-5 ">
+            <Image
+                        src="/homepage/02.png"
+                        alt="Ahmed Fouad"
+                        width={300}
+                        height={400}
+                        className="mx-auto w-44 md:w-full lg:w-2/4 max-w-sm object-contain"
+                        priority
+                      />
+            </div>
 
             <p className="text-sm md:text-base mb-4">
               We’re joining iFX Expo 2025 this June and we’d love to connect with you. Whether you’re a broker, affiliate, or just exploring new opportunities, let’s chat and see how we can grow together.
             </p>
 
             <p className="font-medium text-black mb-6 text-base">
-              <strong>Save the dates: 17 - 19 June!</strong>
+              <strong>Save the Date: 17 - 19 June!</strong>
             </p>
 
            
-             <div className="grid grid-cols-2 md:grid-cols-4 text-center text-sm">
+             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-0 text-center text-sm">
                                 <div>
                                     <img src="/icon-05.webp" alt="Trading" className="mx-auto h-10 mb-2" />
                                     <p className='text-xs text-[#be9b74]'>Trusted & Regulated Worldwide</p>
@@ -48,7 +59,7 @@ const BannerSection = () => {
           </div>
 
           {/* Right Image Section */}
-          <div className="text-center md:w-2/4 w-full px-4">
+          <div className="text-center md:w-2/4 w-full px-4 hidden md:block">
             <Image
               src="/homepage/02.png"
               alt="Ahmed Fouad"
