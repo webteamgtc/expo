@@ -27,21 +27,21 @@ const BannerSection = () => {
             </p>
 
            
-             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
+             <div className="grid grid-cols-2 md:grid-cols-4 text-center text-sm">
                                 <div>
-                                    <img src="/homepage/icon-05.svg" alt="Trading" className="mx-auto h-10 mb-2" />
+                                    <img src="/icon-05.webp" alt="Trading" className="mx-auto h-10 mb-2" />
                                     <p className='text-xs text-[#be9b74]'>Trusted & Regulated Worldwide</p>
                                 </div>
                                 <div>
-                                    <img src="/homepage/icon-02.svg" alt="Tools" className="mx-auto h-10 mb-2" />
+                                    <img src="/icon-02.webp" alt="Tools" className="mx-auto h-10 mb-2" />
                                     <p className='text-xs text-[#be9b74]'>Nearly 1 Million Active Traders Worldwide</p>
                                 </div>
                                 <div>
-                                    <img src="/homepage/icon-03.svg" alt="Infrastructure" className="mx-auto h-10 mb-2" />
+                                    <img src="/icon-03.webp" alt="Infrastructure" className="mx-auto h-10 mb-2" />
                                     <p className='text-xs text-[#be9b74]'>Instant Deposits & Withdrawals</p>
                                 </div>
                                 <div>
-                                    <img src="/homepage/icon-04.svg" alt="Rewards" className="mx-auto h-10 mb-2" />
+                                    <img src="/icon-04.webp" alt="Rewards" className="mx-auto h-10 mb-2" />
                                     <p className='text-xs text-[#be9b74]'>Secure, Instant & Super-Fast Execution</p>
                                 </div>
                             </div>
