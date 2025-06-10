@@ -6,8 +6,8 @@ const GoodPartner = () => {
             <div className="container mx-auto">
                 <div className="max-w-5xl mx-auto text-center">
                     <h2 className="text-xl md:text-3xl font-semibold leading-tight text-primary">
-                        Still stuck in the same old deal?<br />
-                        <span className="">Let’s level things up.</span>
+                        Still Stuck in the Same Old Deal?<br />
+                        <span className="">Let’s Level Things Up.</span>
                     </h2>
                     <p className="mt-6 text-sm md:text-base max-w-3xl mx-auto leading-relaxed">
                        If your current offer feels just “Okay,” it’s time for a change. Bring us what you're working with, no pressure, no fluff. We’ll walk you through how we can do better, more value, more support, and more reasons to switch. This isn’t a sales pitch. It’s a chance to grow smarter.

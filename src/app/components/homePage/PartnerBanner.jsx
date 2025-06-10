@@ -6,9 +6,9 @@ const PartnerBanner = () => {
         <section className="bg-[#f4f6fe] w-full py-10 md:py-16 flex justify-center">
             <div className="container mx-auto  text-center">
                 <div className=' max-w-3xl mx-auto'>
-                    <h2 className="text-xl md:text-4xl font-semibold text-primary capitalize leading-snug">
-                        Let 2025 be the year you partner <br />
-                        with a real FX leader.
+                    <h2 className="text-xl md:text-4xl font-semibold text-primary leading-snug">
+                        Let 2025 be the Year You Partner <br />
+                        with a Real FX Leader.
                     </h2>
                     <p className="text-sm md:text-base mt-6 leading-relaxed">
                         We’ve got unbeatable deals, super-fast payouts, and a team that actually has your back. Whether you’re

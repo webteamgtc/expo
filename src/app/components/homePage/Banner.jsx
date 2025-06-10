@@ -23,7 +23,7 @@ const BannerSection = () => {
             </p>
 
             <p className="font-medium text-black mb-6 text-base">
-              <strong>Save the dates: 17-18-19 June!</strong>
+              <strong>Save the dates: 17 - 19 June!</strong>
             </p>
 
            
