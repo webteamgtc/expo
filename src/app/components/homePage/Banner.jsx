@@ -34,7 +34,7 @@ const BannerSection = () => {
                     { src: "/icon-05.svg", alt: "Execution", text: "Secure, Instant & Super-Fast Execution" },
                     ].map(({ src, alt, text }, index) => (
                     <div key={index}>
-                        <Image src={src} alt={alt} width={40} height={40} className="mx-auto mb-2" />
+                        <img src={src} alt={alt}  width="40" height="40" className="mx-auto mb-2" />
                         <p className="text-xs text-[#be9b74]">{text}</p>
                     </div>
                     ))}
