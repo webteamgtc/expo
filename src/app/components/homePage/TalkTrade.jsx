@@ -1,12 +1,12 @@
 import React from 'react';
-import Image from 'next/image'; // If you're using Next.js; use <img> otherwise
+import Image from 'next/image';
 import CalendlyButton from './CalendlyButton';
 
-const TalkTrendsSection = () => {
+const TalkTrendsSection = ({ calendlyUrl }) => {
     return (
         <section className="bg-primary text-white py-10 md:py-16 border-b border-[#ffffff1e]">
-            <div className=' container mx-auto'>
-                <div className=" flex flex-col lg:flex-row items-center justify-between gap-10">
+            <div className='container mx-auto'>
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
                     {/* Text Content */}
                     <div className="lg:max-w-xl text-center lg:text-left">
                         <h2 className="text-xl md:text-3xl font-semibold mb-5">
@@ -16,9 +16,9 @@ const TalkTrendsSection = () => {
                             Everyone’s chasing the next big thing, AI tools, faster flows, smarter funnels. But not everyone’s talking about what’s actually working. We’re happy to share what we’re seeing across the industry, what’s changing, and where the smart money’s going.
                         </p>
                         <CalendlyButton
-                            url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
+                            url={calendlyUrl}
                             text="Book a Meeting"
-                            className=" bg-white hover:bg-secondary text-primary hover:text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary-dark transition"
+                            className="bg-white hover:bg-secondary text-primary hover:text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary-dark transition"
                         />
                     </div>
 

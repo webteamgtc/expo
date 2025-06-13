@@ -1,7 +1,7 @@
 import React from "react";
 import CalendlyButton from "./CalendlyButton";
 
-const PartnerSectionTwo = () => {
+const PartnerSectionTwo = ({ calendlyUrl }) => {
     return (
         <section className="w-full bg-white py-10 md:py-16 text-center">
             <div className="container mx-auto">
@@ -19,12 +19,12 @@ const PartnerSectionTwo = () => {
                         Let’s build something real, no drama, no excuses, just results.
                     </p>
                     <div className='pt-10'>
-                                                               <CalendlyButton
-                                                                   url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
-                                                                   text="Book a Meeting"
-                                                                   className="bg-secondary text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary transition"
-                                                               />
-                                                           </div>
+                        <CalendlyButton
+                            url={calendlyUrl}
+                            text="Book a Meeting"
+                            className="bg-secondary text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary transition"
+                        />
+                    </div>
                 </div>
             </div>
         </section>

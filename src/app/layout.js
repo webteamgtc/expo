@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} font-sans antialiased`}>
-        <Header />
         {children}
         <ToastContainer autoClose={3000} />
       </body>
