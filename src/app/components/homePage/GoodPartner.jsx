@@ -50,7 +50,7 @@ const GoodPartner = () => {
                     {/* CTA Button */}
                       <div className='pt-10'>
                                                                                    <CalendlyButton
-                                                                                       url="https://calendly.com/mohammad-zeeshan-gtcfx"
+                                                                                       url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
                                                                                        text="Book a Meeting"
                                                                                        className="mt-6 bg-secondary text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary transition"
                                                                                    />

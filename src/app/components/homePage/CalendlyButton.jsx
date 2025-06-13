@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { PopupButton } from 'react-calendly';
 
 export default function CalendlyButton({
-    url = 'https://calendly.com/mohammad-zeeshan-gtcfx',
+    url = 'https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad',
     text = 'Book Appointment',
     className,
 }) {

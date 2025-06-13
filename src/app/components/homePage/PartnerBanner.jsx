@@ -17,7 +17,7 @@ const PartnerBanner = () => {
                     </p>
                     <div className='pt-10'>
                                             <CalendlyButton
-                                                url="https://calendly.com/mohammad-zeeshan-gtcfx"
+                                                url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
                                                 text="Book a Meeting"
                                                 className="bg-secondary text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary transition"
                                             />

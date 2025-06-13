@@ -13,7 +13,7 @@ const BannerSection = () => {
         <div className="w-full flex flex-col-reverse md:flex-row gap-6 md:py-10 items-center">
           {/* Left Content */}
           <div className="md:w-2/4 w-full text-center md:text-left px-4">
-            <h1 className="text-xl md:text-4xl font-medium mb-5 leading-tight">
+            <h1 className="text-xl md:text-4xl font-medium mb-3 md:mb-5 leading-tight">
               Meet Me at <span className="text-secondary font-black">iFX Expo 2025</span> <br />
               & I’ll Show You How GTC Can Grow Your Business
             </h1>
@@ -77,7 +77,7 @@ const BannerSection = () => {
 
         <div className="py-5 md:mb-8">
           <CalendlyButton
-            url="https://calendly.com/mohammad-zeeshan-gtcfx"
+            url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
             text="Book a Meeting"
             className="mt-6 bg-secondary text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary transition"
           />

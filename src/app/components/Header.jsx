@@ -22,7 +22,7 @@ const Header = () => {
                         </div>
                         <div className='calendar-div'>
                             <CalendlyButton
-                                url="https://calendly.com/mohammad-zeeshan-gtcfx"
+                                url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
                                 text="Book a Meeting"
                                 className="bg-secondary cursor-pointer px-5 py-2 rounded-full text-white text-sm font-medium shadow hover:bg-primary transition"
                             />

@@ -16,7 +16,7 @@ const TalkTrendsSection = () => {
                             Everyone’s chasing the next big thing, AI tools, faster flows, smarter funnels. But not everyone’s talking about what’s actually working. We’re happy to share what we’re seeing across the industry, what’s changing, and where the smart money’s going.
                         </p>
                         <CalendlyButton
-                            url="https://calendly.com/mohammad-zeeshan-gtcfx"
+                            url="https://calendly.com/ahmed-fouad-gtcfx/ifx-expo-ahmed-fouad"
                             text="Book a Meeting"
                             className=" bg-white hover:bg-secondary text-primary hover:text-white rounded-full cursor-pointer px-6 py-3 font-medium hover:bg-primary-dark transition"
                         />
